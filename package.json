@@ -1,0 +1,14 @@
+{
+	"type": "module",
+	"scripts": {
+		"start": "tsx main.ts --path ./img/ --extension .tif"
+	},
+	"dependencies": {
+		"citty": "^0.1.4",
+		"execa": "^8.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.9.0",
+		"tsx": "^4.1.1"
+	}
+}
